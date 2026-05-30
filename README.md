@@ -1,2 +1,6 @@
 # Traffic_Sign_Detection_Using_Deep-Learning
-Classification and Detection of Traﬃc Signs using CNN architectures which will be used by the vehicles with inbuilt ADAS feature to reduce the risk of accidents in India
+Classification and Detection of Traﬃc Signs using CNN architectures which will be used by the vehicles with inbuilt ADAS feature to reduce the risk of accidents in India.
+
+Traffic signs are crucial for directing traffic, enforcing safe driving practices, and lowering the number of collisions, injuries, and fatalities. Automated traffic sign recognition and identification is a need for all Intelligent. Transportation Systems (ITS). It cannot be overstated how important automatic traffic sign detection and identification is in the era of self-driving cars. This will help the driver's
+eyesight and maneuvering abilities, which can't be relied upon to always be accurate for all weather-related issues. Road safety
+is being compromised by the human eye's limited ability to read a traffic sign. This study presents a deep-learning-based autonomous traffic sign cognizance technique for India. AlexNet, VGG-16, ResNet-50, and GoogleNet are the four designs of the Convolutional Neural Network (CNN), which is the foundation for autonomous traffic sign detection and identification. The proposed idea was evaluated using a novel dataset made up of 13971 photos divided into 59 categories. As a pre-trained transfer learning model ResNet-50 has greater accuracy and operational speed to produce a best fit model, we will be incorporating these images to it.
