@@ -1,0 +1,137 @@
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 2.5rem;
+  color: #ff7200;
+}
+
+header p {
+	margin-top: 0;
+	font-size: 1.2rem;
+  color: white;
+}
+
+main {
+	max-width: 800px;
+	margin: 2rem auto;
+	padding: 1rem;
+	background-color: #fff;
+	border-radius: 0.25rem;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1rem;
+}
+
+label {
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem;
+}
+
+input[type="file"] {
+	margin-bottom: 1rem;
+}
+
+button {
+	background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+	color: #fff;
+	padding: 0.5rem;
+	border: none;
+	border-radius: 0.25rem;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #555;
+}
+
+#result {
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+#image-container {
+	margin-bottom: 1rem;
+	max-width: 100%;
+}
+
+#image-container img,
+#image-container video {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.disclaimer {
+	font-size: 0.8rem;
+	margin-top: 2rem;
+	color: #888;
+	text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+	header h1 {
+		font-size: 2rem;
+	}
+	header p {
+		font-size: 1rem;
+	}
+	main {
+		padding: 0.5rem;
+	}
+	form {
+		margin-bottom: 0.5rem;
+	}
+	label {
+		font-size: 1rem;
+		margin-bottom: 0.25rem;
+	}
+	input[type="file"] {
+  @media screen and (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  header p {
+    font-size: 1rem;
+  }
+  main {
+    padding: 0.5rem;
+  }
+  form {
+    margin-bottom: 0.5rem;
+  }
+  label {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  input[type="file"] {
+    margin-bottom: 0.5rem;
+  }
+  button {
+    font-size: 1rem;
+  }
+  #result {
+    font-size: 1rem;
+  }
+  .disclaimer {
+    font-size: 0.7rem;
+  }
+}

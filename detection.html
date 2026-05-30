@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Traffic Sign Detection</title>
+	<link rel="stylesheet" type="text/css" href="styled.css">
+</head>
+<body>
+	<header>
+		<h1>Traffic Sign Detection</h1>
+		<p>Upload an image or video to detect the name of the traffic sign in the file.</p>
+	</header>
+	<main>
+		<form>
+			<label for="file-input">Upload an image or video:</label>
+			<input type="file" id="file-input">
+			<button type="button" id="detect-button">Detect Traffic Sign</button>
+		</form>
+		<div id="result"></div>
+		<div id="image-container"></div>
+		<p class="disclaimer">Note: This site is for demonstration purposes only and should not be relied upon for accurate detection of traffic signs in real-world situations.</p>
+	</main>
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.8.0/dist/tf.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd@3.0.0/dist/coco-ssd.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
